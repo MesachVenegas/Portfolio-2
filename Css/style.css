@@ -593,6 +593,8 @@ section{
     color: var(--first__color);
 }
 
+
+/************ Foot section ************/
 .foot{
     display: flex;
     flex-direction: column;
@@ -601,6 +603,7 @@ section{
     padding: 1rem;
     align-items: center;
     width: 100%;
+    background-color: var(--container__color);
 }
 
 .foot__text{
