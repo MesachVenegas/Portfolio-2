@@ -3,7 +3,7 @@
 /*Encode Sans SC font 'Encode Sans SC', sans-serif*/
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300;400;500;600&display=swap');
 /* Break Outs Screens */
-@import url('./media_breakout.css');
+@import url('../media_breakout.css');
 
 :root{
     --subtitle_font: 'Encode Sans SC', sans-serif;
@@ -41,16 +41,20 @@
 }
 
 .hidden{
-    display: none;
+    visibility: hidden;
 }
 
 h1,h2,h3,h4,h5{
     font-family: var(--subtitle_font);
 }
+p,a,span{
+    transition: all .7s ease;
+}
 
 h1, h2{
     margin-top: 90px;
     font-size: 2rem;
+    transition: all .7s ease;
 }
 
 section{
@@ -67,7 +71,12 @@ section{
     padding: 1rem;
     border-radius: .5rem;
     background-color: transparent;
+    color: var(--text__color);
+}
+
+.btn:hover{
     color: var(--first__color);
+    transform: scale(1.1);
 }
 
 
@@ -427,6 +436,7 @@ section{
     flex-wrap: wrap;
     gap: 2rem;
     width: 100%;
+    padding: 3rem .5rem;
 }
 
 .gallery__item{
@@ -533,6 +543,7 @@ section{
     text-align: center;
     background-color: var(--body__color);
     z-index: 20;
+    transition: all .7s ease;
 }
 
 .link__container{
@@ -555,14 +566,14 @@ section{
     gap: .5rem;
     font-size: .9em;
     font-weight: bold;
-    color: var(--first__color);
+    color: var(--text__color);
     border-radius: .5rem;
     border: 2px solid var(--first__color);
     background-color: var(--container__color);
-    transition: all .5s ease-in;
 }
 
 .contact__link:hover{
+    color: var(--first__color);
     box-shadow: var(--container__shadow);
 }
 
@@ -591,6 +602,7 @@ section{
     z-index: 20;
     bottom: 3.5rem;
     background-color: var(--body__color);
+    transition: all .7s ease;
 }
 
 .social__item__contact{
@@ -600,7 +612,7 @@ section{
     position: relative;
     list-style: none;
     text-shadow: var(--container__shadow);
-    transition: all .5s ease-in;
+    transition: all .5s ease;
 }
 
 .social__item__contact:hover{
