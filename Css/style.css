@@ -603,7 +603,17 @@ section{
     width: 100%;
 }
 
+.foot__text{
+    font-size: .8rem;
+}
+
 .foot__heart, .foot__dev{
     color: var(--first__color);
     font-weight: bold;
+}
+
+.foot__link{
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--first__color);
 }
