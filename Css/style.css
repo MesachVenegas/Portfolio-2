@@ -508,12 +508,14 @@ section{
     align-items: center;
     position: relative;
     padding: 2rem 0;
+    height: 80vh;
     background-color: var(--body__color);
     box-shadow: var(--container__shadow);
 }
 
 .contact__container{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -523,9 +525,10 @@ section{
 }
 
 .contact__title{
-    text-align: center;
-    width: 240px;
     position: relative;
+    width: 240px;
+    top: calc(64vh - 80vh);
+    text-align: center;
     background-color: var(--body__color);
     z-index: 20;
 }
@@ -565,6 +568,7 @@ section{
     width: 100%;
     height: 4px;
     background-color: var(--first__color);
+    z-index: 10;
 }
 
 .up{
@@ -581,11 +585,16 @@ section{
     position: relative;
     width: 240px;
     gap: 2rem;
-    background-color: var(--body__color);
     z-index: 20;
+    bottom: calc(64vh - 80vh);
+    background-color: var(--body__color);
 }
 
 .social__item__contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     list-style: none;
     text-shadow: var(--container__shadow);
     transition: all .5s ease-in;
