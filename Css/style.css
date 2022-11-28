@@ -544,18 +544,19 @@ section{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    width: 90%;
+    width: 80%;
     height: 50px;
     gap: .5rem;
+    font-size: .9em;
     font-weight: bold;
-    color: var(--text__color);
+    color: var(--first__color);
     border-radius: .5rem;
+    border: 2px solid var(--first__color);
     background-color: var(--container__color);
     transition: all .5s ease-in;
 }
 
 .contact__link:hover{
-    color: var(--first__color);
     box-shadow: var(--container__shadow);
 }
 
@@ -607,9 +608,6 @@ section{
     background-color: var(--container__color);
 }
 
-.foot__text{
-    font-size: .8rem;
-}
 
 .foot__heart, .foot__dev{
     color: var(--first__color);
