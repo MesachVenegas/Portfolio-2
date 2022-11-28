@@ -527,7 +527,7 @@ section{
 .contact__title{
     position: relative;
     width: 240px;
-    top: calc(64vh - 80vh);
+    top: calc(67vh - 80vh);
     text-align: center;
     background-color: var(--body__color);
     z-index: 20;
@@ -586,7 +586,7 @@ section{
     width: 240px;
     gap: 2rem;
     z-index: 20;
-    bottom: calc(64vh - 80vh);
+    bottom: calc(67vh - 80vh);
     background-color: var(--body__color);
 }
 
