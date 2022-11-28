@@ -539,7 +539,7 @@ section{
     align-items: center;
     width: 100%;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 .contact__link{
