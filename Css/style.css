@@ -350,6 +350,7 @@ section{
 
 .about__mark{
     font-style: italic;
+    font-weight: bold;
     color: var(--first__color);
 }
 
