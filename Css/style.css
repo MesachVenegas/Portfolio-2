@@ -326,13 +326,14 @@ section{
 
 .about__container{
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: flex-start;
     gap: 1rem;
 }
 
 .about__bar {
-    width: 10%;
+    width: 100%;
     height: 6px;
     border-radius: 0 .5rem .5rem 0;
     transition: left .7s ease;
@@ -340,7 +341,22 @@ section{
 }
 
 .about__me{
+    display: flex;
     width: 100%;
+}
+
+.about__cite{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 2rem;
+    opacity: .7;
+}
+
+.colons{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .about__first{
