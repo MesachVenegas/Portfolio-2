@@ -49,6 +49,7 @@ h1,h2,h3,h4,h5{
 }
 
 h1, h2{
+    margin-top: 90px;
     font-size: 2rem;
 }
 
@@ -528,7 +529,7 @@ section{
 .contact__title{
     position: relative;
     width: 240px;
-    top: -.2rem;
+    top: -2.5rem;
     text-align: center;
     background-color: var(--body__color);
     z-index: 20;
@@ -540,7 +541,8 @@ section{
     align-items: center;
     width: 100%;
     flex-direction: column;
-    gap: 3rem;
+    margin-bottom: 4rem;
+    gap: 1.5rem;
 }
 
 .contact__link{
@@ -587,7 +589,7 @@ section{
     width: 240px;
     gap: 2rem;
     z-index: 20;
-    bottom: -.3rem;
+    bottom: 3.5rem;
     background-color: var(--body__color);
 }
 
