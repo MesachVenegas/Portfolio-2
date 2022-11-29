@@ -354,6 +354,7 @@ section{
     border-radius: 0 .5rem .5rem 0;
     transition: left .7s ease;
     background-color: var(--first__color);
+    box-shadow: var(--container__shadow);
 }
 
 .about__text{
