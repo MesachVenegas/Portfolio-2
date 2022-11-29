@@ -476,7 +476,7 @@ section{
 
 .gallery__item{
     position: relative;
-    width: 450px;
+    width: 470px;
     height: 230px;
     align-items: center;
     overflow: hidden;
@@ -625,11 +625,13 @@ section{
 }
 
 .contact__list{
+
     justify-content: center;
     align-content: center;
     position: relative;
     width: 240px;
     gap: 2rem;
+    left: 0;
     z-index: 20;
     bottom: 3.5rem;
     background-color: var(--body__color);
