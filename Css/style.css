@@ -463,18 +463,18 @@ section{
 
 .gallery__item{
     position: relative;
-    width: 280px;
-    height: 170px;
+    width: 450px;
+    height: 230px;
     align-items: center;
     overflow: hidden;
-    border-radius: .2rem;
+    border-radius: .5rem;
     transition: all .5s ease-out;
 }
 
 .gallery__img{
     width: 100%;
     height: 100%;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 
 .overlay{
@@ -493,10 +493,6 @@ section{
     color: #FFF;
     background-color: var(--overlay__bg);
     transition: all .7s ease-in;
-}
-
-.overlay__phrase{
-    font-size: .8rem;
 }
 
 .overlay__btn{
