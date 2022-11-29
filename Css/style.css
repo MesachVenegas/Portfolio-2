@@ -285,7 +285,7 @@ section{
 
 .bar{
     position: absolute;
-    left: 0;
+    left: -1px;
     width: calc(100vw - 70%);
     height: 6px;
     border-radius: 0 .5rem .5rem 0;
@@ -348,7 +348,7 @@ section{
 
 .about__bar {
     position: absolute;
-    left: 1px;
+    left: -1px;
     width: 90%;
     height: 6px;
     border-radius: 0 .5rem .5rem 0;
