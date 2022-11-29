@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 /*Encode Sans SC font 'Encode Sans SC', sans-serif*/
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300;400;500;600&display=swap');
-/* Break Outs Screens */
-@import url('../media_breakout.css');
 
 :root{
     --subtitle_font: 'Encode Sans SC', sans-serif;
@@ -234,17 +232,19 @@ section{
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
+    width: 90%;
 }
 
 .presentation{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: stretch;
     align-items: flex-start;
     gap: 1rem;
 }
 
 .hero__presentation{
+    margin-top: 0;
     height: fit-content;
     font-size: 1rem;
 }
@@ -396,13 +396,15 @@ section{
     z-index: 20;
 }
 
-.skillS__container{
+.skills__container{
     display: flex;
-    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    overflow-x: scroll;
     align-items: center;
-    flex-wrap: wrap;
     gap: 2rem;
 }
+
 
 .skill__card{
     display: flex;
@@ -663,3 +665,6 @@ section{
     text-decoration: none;
     color: var(--first__color);
 }
+
+/* Break Outs Screens */
+@import url('../Css/_media_breakout.css');

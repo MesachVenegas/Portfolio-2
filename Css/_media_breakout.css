@@ -1,5 +1,5 @@
 /*  Small devices (landscape phones, 576px and up) */
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 480px) {
     .about__container{
         width: 80%;
     }
