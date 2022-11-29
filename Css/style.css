@@ -288,12 +288,14 @@ section{
     height: 6px;
     border-radius: 0 .5rem .5rem 0;
     background-color: var(--first__color);
+    box-shadow: var(--container__shadow);
     transition: left .7s ease;
 }
 
 .social__list{
     display: flex;
     gap: 1rem;
+    padding: 1rem;
     font-size: 1.5rem;
     margin-left: 1rem;
 }
@@ -307,6 +309,7 @@ section{
     height: 40px;
     border-radius: 50%;
     transition: all .5s ease-out;
+    box-shadow: var(--container__shadow);
 }
 
 .social__item:hover{
@@ -603,7 +606,7 @@ section{
 }
 
 .up{
-    top: 3.5rem;
+    top: 2.5rem;
 }
 
 .down{
