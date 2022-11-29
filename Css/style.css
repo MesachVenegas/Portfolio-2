@@ -286,7 +286,7 @@ section{
 .bar{
     position: absolute;
     left: 0;
-    width: calc(100vw - 60%);
+    width: calc(100vw - 70%);
     height: 6px;
     border-radius: 0 .5rem .5rem 0;
     background-color: var(--first__color);
@@ -297,7 +297,7 @@ section{
 .social__list{
     position: absolute;
     display: flex;
-    right: 1rem;
+    left: 30%;
     gap: 1rem;
     padding: 1rem;
     font-size: 1.5rem;
