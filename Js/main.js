@@ -1,4 +1,3 @@
-
 const toggleMenu = () =>{
     const btnMenu = document.getElementById('menu-btn');
     const menu =  document.getElementById('menu-options');
@@ -70,7 +69,7 @@ const scrollUp = () =>{
             contact.classList.remove('active')
             contactBar.classList.remove('bar__active')
         }
-        if(window.scrollY > 3000){
+        if(window.scrollY > 2650){
             portfolio.classList.remove('active')
             portfolioBar.classList.remove('bar__active')
             contact.classList.add('active')

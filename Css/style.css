@@ -519,18 +519,18 @@ section{
 
 .gallery__container{
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
     gap: 2rem;
-    width: 90%;
-    padding: 3rem .5rem;
+    width: 100%;
+    padding: 3rem 0;
 }
 
 .gallery__item{
     position: relative;
-    min-width: 200px;
-    min-height: 170px;
+    min-width: 340px;
+    min-height: 190px;
     align-items: center;
     overflow: hidden;
     border-radius: .5rem;
@@ -732,6 +732,18 @@ section{
 }
 
 /* Break Outs Screens */
+@media screen and (min-width: 768px){
+    .gallery__container {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .gallery__item {
+        max-width: 300px;
+        max-height: 200px;
+    }
+}
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     .nav__menu {
@@ -819,6 +831,7 @@ section{
     }
 
     .gallery__container{
+        flex-wrap: wrap;
         width: 100%;
     }
 
