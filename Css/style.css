@@ -738,8 +738,10 @@ section{
         display: block;
     }
 
-    .gallery__container {
+    .gallery__container,
+    .skills__container {
         justify-content: center;
+        overflow-x: none;
         flex-wrap: wrap;
         width: 100%;
     }
@@ -828,16 +830,6 @@ section{
         font-size: 1.2rem;
         width: 60%;
         opacity: .9;
-    }
-
-    .skills__container{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .gallery__container{
-        flex-wrap: wrap;
-        width: 100%;
     }
 
     .gallery__item{
