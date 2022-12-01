@@ -752,7 +752,8 @@ section{
     }
 }
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+
+@media screen and  (min-width: 992px) {
     .nav__menu {
         justify-content: flex-end;
         position: relative;
