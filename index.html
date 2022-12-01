@@ -12,22 +12,24 @@
     <link rel="shortcut icon" href="./Assets/Logos/Logo_personal.png" type="image/x-icon">
 </head>
 <body class="body">
-
     <nav class="nav">
-        <div class="nav__brand">
+        <a class="nav__brand" href="index.html">
             <img class="nav__logo" src="./Assets/Logos/Logo_personal.png" alt="Mesach Developer Logo">
             <span>Code Your Dreams</span>
-        </div>
+        </a>
         <div class="nav__outer">
             <ul class="nav__menu" id="menu-options">
-                <li class="nav__menu__item">
-                    <a class="nav__menu__link" href="#About">About</a>
+                <li class="nav__menu__item" >
+                    <a class="nav__menu__link" href="#About" id="about-menu">About</a>
+                    <div class="menu__bar" id="about-bar"></div>
+                </li>
+                <li class="nav__menu__item" >
+                    <a class="nav__menu__link" href="#Portfolio" id="portfolio-menu">Portfolio</a>
+                    <div class="menu__bar" id="portfolio-bar"></div>
                 </li>
                 <li class="nav__menu__item">
-                    <a class="nav__menu__link" href="#Portfolio">Portfolio</a>
-                </li>
-                <li class="nav__menu__item">
-                    <a class="nav__menu__link" href="#Contact">Contact</a>
+                    <a class="nav__menu__link" href="#Contact" id="contact-menu">Contact</a>
+                    <div class="menu__bar" id="contact-bar"></div>
                 </li>
             </ul>
         </div>
@@ -42,7 +44,7 @@
         </div>
     </nav>
 
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="hero__container">
             <div class="presentation">
                 <h1 class="hero__presentation">I'm <span class="hero__title">Mesach Venegas</span></h1>
@@ -52,10 +54,26 @@
             <div class="hero__social">
                 <div class="bar"></div>
                 <ul class="social__list">
-                    <li class="social__item"><i class="fa-brands fa-facebook-f"></i></li>
-                    <li class="social__item"><i class="fa-brands fa-linkedin-in"></i></li>
-                    <li class="social__item"><i class="fa-brands fa-twitter"></i></li>
-                    <li class="social__item"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="social__item">
+                        <a  href="https://www.facebook.com/profile.php?id=100073932122999" class="social__item__link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://mx.linkedin.com/in/jmesach" class="social__item__link">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://mobile.twitter.com/MesachVenegas/" class="social__item__link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://www.instagram.com/mesach_aztck/" class="social__item__link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="hero__presentation__img">
@@ -81,6 +99,9 @@
                 </p>
                 <span class="about__mark">- Walt Disney (1905-1966)</span>
             </cite>
+        </div>
+        <div class="up__btn" id="up-btn">
+            <i class="fa-solid fa-arrow-up"></i>
         </div>
     </section>
 
@@ -191,22 +212,6 @@
                 </div>
             </div>
             <div class="gallery__item">
-                <img src="./Assets/Imgs/academlo_portfolio.png" alt="" class="gallery__img">
-                <div class="overlay" id="overlay-link">
-                    <h3 class="overlay__title">Portfolio</h3>
-                    <p class="overlay__phrase">Maquetado de Portfolio, proyecto de Academlo seccion de fundamentos.</p>
-                    <a href="#" class="overlay__btn">View more <i class="overlay__arrow fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="gallery__item">
-                <img src="./Assets/Imgs/academlo_store.png" alt="" class="gallery__img">
-                <div class="overlay" id="overlay-link">
-                    <h3 class="overlay__title">Academlo Store</h3>
-                    <p class="overlay__phrase">E-commerce proyecto de Academlo en fundamentos, JS avanzado y maquetado web. </p>
-                    <a href="#" class="overlay__btn">View more <i class="overlay__arrow fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="gallery__item">
                 <img src="./Assets/Imgs/Bookpedia.jpg" alt="" class="gallery__img">
                 <div class="overlay" id="overlay-link">
                     <h3 class="overlay__title">Bookpedia</h3>
@@ -265,18 +270,34 @@
                 </a>
             </div>
             <ul class="social__list contact__list">
-                <li class="social__item__contact"><i class="fa-brands fa-facebook-f"></i></li>
-                <li class="social__item__contact"><i class="fa-brands fa-linkedin-in"></i></li>
-                <li class="social__item__contact"><i class="fa-brands fa-twitter"></i></li>
-                <li class="social__item__contact"><i class="fa-brands fa-instagram"></i></li>
+                <li class="social__item__contact">
+                        <a href="https://www.facebook.com/profile.php?id=100073932122999" class="social__item__link" >
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="social__item__contact">
+                        <a href="https://mx.linkedin.com/in/jmesach" class="social__item__link">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="social__item__contact">
+                        <a href="https://mobile.twitter.com/MesachVenegas/" class="social__item__link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social__item__contact">
+                        <a href="https://www.instagram.com/mesach_aztck/" class="social__item__link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
             </ul>
         </div>
         <div class="separator down"></div>
     </section>
 
     <footer class="foot">
-        <h3>Thank's for your visit</h3>
-        <p>
+        <h3 class="foot__title">Thank's for your visit</h3>
+        <p class="foot__copy">
             Made with <span class="foot__heart"><i class="fa-solid fa-heart"></i></span>
             by <span class="foot__dev">Mesach Venegas</span>
         </p>
