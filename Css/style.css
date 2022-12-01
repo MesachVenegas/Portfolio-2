@@ -128,7 +128,7 @@ section{
     align-items: center;
     transition: left .5s ease;
     background-color: var(--container__color);
-    z-index: 30;
+    z-index: 40;
 }
 
 .nav__menu--open{
