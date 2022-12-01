@@ -364,7 +364,6 @@ section{
     justify-content: center;
     align-items: center;
     position: fixed;
-    position: -webkit-sticky;
     top: 80%;
     bottom: 1rem;
     right: 1rem;
@@ -378,7 +377,7 @@ section{
     font-size: 1.5rem;
     color: var(--text__color);
     transition: all .5s ease;
-    transform: translateY(8rem);
+    transform: translateY(11rem);
 }
 
 .up__btn--active{
