@@ -377,7 +377,7 @@ section{
     font-size: 1.5rem;
     color: var(--text__color);
     transition: all .5s ease;
-    transform: translateY(11rem);
+    transform: translateY(30rem);
 }
 
 .up__btn--active{
