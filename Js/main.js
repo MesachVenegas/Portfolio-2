@@ -53,6 +53,8 @@ const scrollUp = () =>{
         if(window.scrollY < 650){
             about.classList.remove('active')
             aboutBar.classList.remove('bar__active')
+            contactBar.classList.remove('bar__active')
+            portfolioBar.classList.remove('bar__active')
         }
         if(window.scrollY > 650){
             about.classList.add('active')
