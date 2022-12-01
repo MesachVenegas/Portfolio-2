@@ -451,9 +451,10 @@ section{
 }
 
 .skills__bg{
+    display: none;
     position: absolute;
     left: 0;
-    width: 135%;
+    width: 115%;
     height: 100%;
 }
 
@@ -733,6 +734,10 @@ section{
 
 /* Break Outs Screens */
 @media screen and (min-width: 768px){
+    .skills__bg{
+        display: block;
+    }
+
     .gallery__container {
         justify-content: center;
         flex-wrap: wrap;
