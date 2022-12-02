@@ -69,7 +69,7 @@ const scrollUp = () =>{
             contact.classList.remove('active')
             contactBar.classList.remove('bar__active')
         }
-        if(window.scrollY > 2650){
+        if(window.scrollY > 2550){
             portfolio.classList.remove('active')
             portfolioBar.classList.remove('bar__active')
             contact.classList.add('active')
