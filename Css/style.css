@@ -16,6 +16,21 @@
     --container__shadow: 4px 8px 16px rgba(0, 0, 0, .3),
         6px 12px 20px rgba(0, 0, 0, .7);
 }
+@media (prefers-color-scheme: light){
+:root {
+    --subtitle_font: 'Encode Sans SC', sans-serif;
+    --body__font: 'Poppins', sans-serif;
+    --body__color: #F1F1F1;
+    --container__color: rgb(214, 214, 214);
+    --text__color: rgb(0, 0, 0);
+    --first__color: rgb(227, 23, 10);
+    --hover__color: rgb(223, 32, 32);
+    --shadow__color: rgba(227, 24, 10, 0.525);
+    --overlay__bg: rgba(23, 23, 24, .9);
+    --container__shadow: 4px 8px 16px rgba(0, 0, 0, .3),
+        6px 12px 20px rgba(0, 0, 0, .7);
+}
+}
 
 @media (prefers-color-scheme: dark) {
     :root {
