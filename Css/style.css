@@ -32,7 +32,7 @@
 }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
         --body__color: rgb(23, 18, 25);
         --container__color: rgb(23, 23, 24);
@@ -40,7 +40,7 @@
         --container__shadow: 0 8px 16px rgba(0, 0, 0, 1),
             0 12px 20px rgba(0, 0, 0, .5);
     }
-}
+} */
 
 /* General Rules */
 *{
