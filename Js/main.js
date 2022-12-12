@@ -85,8 +85,21 @@ const scrollUp = () =>{
 
 }
 
+const detectMode = ()=>{
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const newColorScheme = e.matches ? "dark" : "light";
+        body.classList.toggle('dark');
+        console.log(newColorScheme);
+    });
+}
+
+// const skillSlider = () =>{
+    
+// }
+
 
 document.addEventListener('DOMContentLoaded',() => {
+    detectMode()
     toggleMenu()
     mode()
     scrollUp()
