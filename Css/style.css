@@ -16,7 +16,7 @@
     --container__shadow: 4px 8px 16px rgba(0, 0, 0, .3),
         6px 12px 20px rgba(0, 0, 0, .7);
 }
-@media (prefers-color-scheme: light){
+@media (prefers-light-interface){
 :root {
     --subtitle_font: 'Encode Sans SC', sans-serif;
     --body__font: 'Poppins', sans-serif;
@@ -32,7 +32,7 @@
 }
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-dark-interface) {
     :root {
         --body__color: rgb(23, 18, 25);
         --container__color: rgb(23, 23, 24);
@@ -40,7 +40,7 @@
         --container__shadow: 0 8px 16px rgba(0, 0, 0, 1),
             0 12px 20px rgba(0, 0, 0, .5);
     }
-} */
+}
 
 /* General Rules */
 *{

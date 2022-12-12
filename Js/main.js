@@ -88,13 +88,17 @@ const scrollUp = () =>{
 const detectMode = ()=>{
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
         const newColorScheme = e.matches ? "dark" : "light";
-        body.classList.toggle('dark');
+        if(newColorScheme == "dark"){
+            body.classList.add('dark');
+        }else{
+            body.classList.remove('dark');
+        }
         console.log(newColorScheme);
     });
 }
 
 // const skillSlider = () =>{
-    
+
 // }
 
 
